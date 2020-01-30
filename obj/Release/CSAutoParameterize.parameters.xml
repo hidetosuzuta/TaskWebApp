@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="sqlsvr-Web.config Connection String" description="sqlsvr データベースに接続するためにアプリケーションによって web.config で使用される接続文字列。" defaultValue="Data Source= practicedb5.database.windows.net;Persist Security Info=True;User ID= us;Password= admin123#" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hideto\ Suzuta\\Desktop\\WebApp\\TaskWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='sqlsvr']/@connectionString" />
+  </parameter>
+  <parameter name="SampleConnectionString-Web.config Connection String" description="SampleConnectionString データベースに接続するためにアプリケーションによって web.config で使用される接続文字列。" defaultValue="Data Source=practicedb5.database.windows.net;Initial Catalog=Sample;User ID=us;Password=admin123#" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Hideto\ Suzuta\\Desktop\\WebApp\\TaskWebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SampleConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
